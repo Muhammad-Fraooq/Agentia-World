@@ -20,7 +20,7 @@ const Hero = () => {
       </video>
 
       {/* Hero Content */}
-      <div className="hero-content absolute inset-0 flex flex-col justify-center items-center bg-gradient-to-t from-black/50 via-transparent to-black/50 text-center px-4 sm:px-8">
+      <div className="hero-content absolute inset-0 flex flex-col justify-center items-center bg-gradient-to-t from-black/50 via-transparent to-black/50 text-center gap-3 px-4 sm:px-8">
 
         {/* Tagline */}
         <div className="bg-gray-800 text-white px-4 py-2 rounded-lg shadow-md flex items-center gap-3 w-fit">
@@ -29,17 +29,17 @@ const Hero = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-4xl sm:text-7xl font-extrabold leading-tight py-4 sm:py-6 mb-3 sm:mb-5 drop-shadow-lg bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent max-w-[90%] md:max-w-[800px]">
+        <h1 className="text-3xl sm:text-7xl font-extrabold leading-tight py-4 sm:py-6 mb-3 sm:mb-5 drop-shadow-lg bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent max-w-[450px] md:max-w-[800px] ">
           Intelligent AI Agents for Your Business
         </h1>
 
         {/* Persistent Description Box */}
-        <div className="bg-gray-900 bg-opacity-80 mb-6 flex items-center rounded-lg shadow-lg p-4 sm:p-5 gap-3 border border-gray-700 w-full max-w-[350px] sm:max-w-[500px] md:max-w-[600px]">
-
+        <div className="bg-gray-900 bg-opacity-80 mb-6 flex items-center rounded-lg shadow-lg p-4 sm:p-5 gap-3 sm:gap-4 border border-gray-700 w-full max-w-[350px] sm:max-w-[500px] md:max-w-[600px]">
           {/* Robot Icon */}
           <FaRobot
-            className="text-white bg-gradient-to-r from-purple-600 to-blue-400 rounded-full shadow-lg p-2"
-            size={40}
+            className="text-white bg-gradient-to-r from-purple-600 to-blue-400 rounded-full shadow-lg p-2 "
+            size={40} // Base size for mobile
+            style={{ width: "40px", height: "40px" }} // Ensures consistent size
           />
 
           {/* Typewriter Text Box */}
@@ -47,7 +47,6 @@ const Hero = () => {
             <TypeWriter />
           </p>
         </div>
-
 
         {/* Call to Action */}
         <div className="flex py-5 gap-4">
