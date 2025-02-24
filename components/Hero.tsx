@@ -22,13 +22,15 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="hero-content absolute inset-0 flex flex-col justify-center items-center bg-gradient-to-t from-black/50 via-transparent to-black/50 text-center px-4 sm:px-8">
 
-        <div className="bg-gray-800 text-white p-3 mb-4 rounded-lg shadow-md flex items-center gap-2 w-fit">
-          <FaDotCircle className="text-purple-400 text-sm md:text-base" />
-          <p className="text-base md:text-lg font-semibold text-purple-400 ">AI Agents Automation</p>
+        {/* Tagline */}
+        <div className="bg-gray-800 text-white px-4 py-2 rounded-lg shadow-md flex items-center gap-3 w-fit">
+          <FaDotCircle className="text-purple-400 text-base md:text-lg" />
+          <p className="text-sm md:text-base font-semibold text-purple-300">AI-Powered Automation</p>
         </div>
 
-        <h1 className="text-3xl sm:text-7xl font-extrabold py-6 mb-5 drop-shadow-lg bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent md:w-[800px] w-[350px]">
-          AI Agents for the Future
+        {/* Main Heading */}
+        <h1 className="text-4xl sm:text-7xl font-extrabold leading-tight py-4 sm:py-6 mb-3 sm:mb-5 drop-shadow-lg bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent max-w-[90%] md:max-w-[800px]">
+          Intelligent AI Agents for Your Business
         </h1>
 
         {/* Persistent Description Box */}
@@ -42,14 +44,23 @@ const Hero = () => {
 
           {/* Typewriter Text Box */}
           <p className="flex-grow font-medium bg-gray-800 text-gray-200 rounded-lg shadow-md p-2 sm:p-3 text-sm sm:text-base">
-           <TypeWriter/>
+            <TypeWriter />
           </p>
         </div>
 
 
-        <button className="px-6 py-3 bg-gradient-to-r from-purple-700 to-blue-500 text-white text-base hover:opacity-95 font-medium transition-transform shadow-sm rounded-lg">
-          Get Started
-        </button>
+        {/* Call to Action */}
+        <div className="flex py-5 gap-4">
+          {/* Get Started Button */}
+          <button className="bg-gradient-to-r from-purple-700 to-blue-500  hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            Get Started
+          </button>
+
+          {/* Learn More Button */}
+          <button className="bg-transparent border border-purple-600bg-gradient-to-r from-purple-700 to-blue-500  hover:bg-purple-600 hover:text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            Learn More
+          </button>
+        </div>
       </div>
     </section>
   );
