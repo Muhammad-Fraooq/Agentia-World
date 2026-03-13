@@ -48,7 +48,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-purple-300 first-line:uppercase mb-3">Contact Us</h3>
           <p className="text-sm text-gray-400">📧 Email: muhammad888xyz@gmail.com</p>
-          <p className="text-sm text-gray-400 mt-1">📞 Phone: +92 334-7361-933</p>
+          <p className="text-sm text-gray-400 mt-1">📞 Phone: +92 312-8030437</p>
         </div>
       </div>
 

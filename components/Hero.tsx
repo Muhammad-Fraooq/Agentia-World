@@ -56,7 +56,7 @@ const Hero = () => {
           </button>
 
           {/* Learn More Button */}
-          <button className="bg-transparent border border-purple-600bg-gradient-to-r from-purple-700 to-blue-500  hover:bg-purple-600 hover:text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          <button className="bg-transparent border border-purple-600 hover:bg-purple-600 hover:text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
             Learn More
           </button>
         </div>
