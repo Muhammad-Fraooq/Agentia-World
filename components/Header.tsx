@@ -14,7 +14,7 @@ const Header = () => {
 
     // Pages with links and icons
     const pages = [
-        { id: 1, link: '/#technology', name: 'Technology', icon: <FaCogs /> },
+        { id: 1, link: '/#technalogy', name: 'Technalogy', icon: <FaCogs /> },
         { id: 2, link: '/#agents', name: 'Agents', icon: <FaUserSecret /> },
         { id: 3, link: '/#pricing', name: 'Pricing', icon: <FaDollarSign /> },
         { id: 4, link: '/#contact', name: 'Contact', icon: <FaEnvelope /> },

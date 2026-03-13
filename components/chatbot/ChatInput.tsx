@@ -9,14 +9,12 @@ interface ChatInputProps {
   disabled: boolean;
 }
 
-/**
- * ChatInput component provides the text input and send button
- * Supports Enter to send, Shift+Enter for new line
- */
-export default function ChatInput({
-  onSendMessage,
-  disabled,
-}: ChatInputProps): ReactElement {
+
+// ChatInput component provides the text input and send button
+// Supports Enter to send, Shift+Enter for new line
+
+export default function ChatInput({onSendMessage, disabled,}: ChatInputProps): ReactElement 
+{
   const [inputValue, setInputValue] = useState("");
 
   const handleInputChange = (e: ChangeEvent<HTMLTextAreaElement>): void => {

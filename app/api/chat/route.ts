@@ -6,7 +6,7 @@ export async function POST(request: NextRequest) {
     console.log("[Chat API] Request body:", body);
 
     // Forward the request to the FastAPI backend
-    const backendUrl = process.env.BACKEND_URL || "https://huggingface.co/spaces/muhammaddev2007/agentia-chatbot-api"
+    const backendUrl = process.env.BACKEND_URL || "http://localhost:3000/"
     console.log("[Chat API] Forwarding to:", `${backendUrl}/api/backend/chat`);
 
     const response = await fetch(`${backendUrl}/api/backend/chat`, {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaBrain, FaCloud, FaNetworkWired, FaRobot } from 'react-icons/fa';
 
-const Technology = () => {
+const Technalogy = () => {
 
   const technologies = [
     { icon: <FaBrain className='bg-gradient-to-r from-purple-600 to-blue-400 rounded-full p-2 shadow-lg' size={45} />, title: "Machine Learning", desc: "AI that continuously improves through data-driven learning." },
@@ -11,7 +11,7 @@ const Technology = () => {
   ];
 
   return (
-    <section id="technology" className='pt-6 bg-gradient-to-r from-[#081A2A] via-[#202752] to-[#2D1A47] text-white'>
+    <section id="technalogy" className='pt-6 bg-gradient-to-r from-[#081A2A] via-[#202752] to-[#2D1A47] text-white'>
       <div className='text-center max-w-6xl mx-auto px-6 pt-6'>
         <h2 className='text-2xl md:text-4xl font-semibold bg-gradient-to-r from-purple-500 via-blue-400 to-cyan-300 bg-clip-text text-transparent'>
           Powering AI with advanced technology.
@@ -39,4 +39,4 @@ const Technology = () => {
   )
 }
 
-export default Technology;
+export default Technalogy;

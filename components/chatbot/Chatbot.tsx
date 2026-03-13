@@ -8,14 +8,12 @@ import ChatInput from "./ChatInput";
 import { Message, sendChatMessage } from "@/lib/api";
 
 interface ChatbotProps {
-  /** Optional initial greeting message */
   welcomeMessage?: string;
 }
 
-/**
- * Main Chatbot component
- * Manages chat state, API communication, and renders the chat interface
- */
+//   Main Chatbot component
+//  Manages chat state, API communication, and renders the chat interface
+
 export default function Chatbot({
   welcomeMessage = "Hello! I'm Agentia AI Assistant. How can I help you today?",
 }: ChatbotProps): ReactElement {
